@@ -1,0 +1,202 @@
+body{
+    font-family: helvetica;
+    background-color: rgb(200, 250, 200);
+    background-size: cover;
+    text-shadow: 1px 1px 0 #30382d;
+    color: rgb(237, 219, 156);
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin: 0;
+    padding: 25px 30px;
+    font-size: 40px;
+}
+header .container{
+    display: flex; 
+    position: fixed;
+    width: 98%;
+    background-color: rgb(237, 219, 156);
+    color: rgb(34, 138, 34);
+    top: 0
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50%;
+}
+header a{
+    text-decoration: none;
+    color: rgb(34, 138, 34);
+    font-weight: bold;
+    padding: 5px 30px;
+    text-align: justify;
+}
+header a:hover{
+    background-color: rgb(27, 98, 27, 0.3);
+    color: beige;
+    border-radius: 15px;
+}
+h1{
+    margin-left: 10px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 0 #30382d;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 0 #30382d;
+}
+h3{
+    color: white;
+    font-size: 30px;
+}
+h4{
+    color: white;
+    font-size: 50px;
+}
+h5{
+    color: white;
+    font-size: 17px;
+    text-shadow: 3px 3px 0 #30382d;
+}
+.caixa1{
+    display: flex;
+    justify-content: center;
+}    
+.obj1{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(10, 245, 30);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+.obj2{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(20, 200, 50);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+.obj3{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(30, 180, 70);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+ .obj4{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(112, 245, 72);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+.obj5{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(93, 199, 72);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+.obj6{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(60, 185, 93);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+.obj7{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(9, 164, 51);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+.obj8{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(44, 134, 68);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+.obj9{
+    padding: 30px 70px;
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+    background-color: rgb(23, 133, 53);
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+}
+#obj123{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#obj456{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#obj789{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.caixa2{
+    display: flex;
+    justify-content: center;
+}
+.abcd{
+    padding: 10px 5px;
+}  
+.botao{
+    display: inline-block;
+    text-decoration: none;
+}
+.botao h3:hover{
+    background-color: rgba(246, 251, 246, 0.043);
+    color: rgb(27, 98, 27);
+}
+.botao h4:hover{
+    background-color: rgba(246, 251, 246, 0.043);
+    color: rgb(27, 98, 27);
+}
+.objetivo{
+    margin-left: 25%;
+    margin-right: 35%;
+    background-color: rgb(34, 138, 34);
+    padding: 40px 30px;
+}
+footer{
+    background-color: rgb(238, 217, 148);
+    color: rgb(34, 138, 34);
+    padding: 5px 40px;
+}
